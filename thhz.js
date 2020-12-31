@@ -2,10 +2,16 @@ let obj = JSON.parse($response.body);
 
 let time = "1924907841";
 
-obj.code = "1";
-
-obj.viptime = time;
-
-obj.msg.viptime = time;
+if (obj.hasOwnProperty("code")) {
+    obj.code = "1";
+}
+if (obj.hasOwnProperty("viptime")) {
+    obj.viptime = time;
+}
+if (obj.hasOwnProperty("msg")) {
+    if (obj.msg.hasOwnProperty("viptime")) {
+        obj.msg.viptime = time;
+    }
+}
 
 $done({ body: JSON.stringify(obj) });
