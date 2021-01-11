@@ -1,4 +1,4 @@
-let obj = JSON.parse($response.body);
+let obj = JSON.parse(JSON.parse($response.body));
 
 let count = 9999;
 
