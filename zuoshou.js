@@ -13,4 +13,4 @@ if (obj.hasOwnProperty("data")) {
     }
 }
 
-$done({ body: JSON.stringify(JSON.stringify(obj)) });
+$done({ body: JSON.stringify(obj) });
