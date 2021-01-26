@@ -11,4 +11,4 @@ var body = {
         "user_viptime": "2066-06-06"
     }
 };
-$done(JSON.stringify(body));
+$done({body:JSON.stringify(body)});
