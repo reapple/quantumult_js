@@ -11,6 +11,4 @@ var body = {
         "user_viptime": "2066-06-06"
     }
 };
-console.log($response.body + '\n');
-console.log(body);
 $done(body);
