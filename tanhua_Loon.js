@@ -12,5 +12,5 @@ var body = {
   }
 };
 console.log($response.body+'\n');
-console.log({body});
-$done({body});
+console.log(body);
+$done(body);
