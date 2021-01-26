@@ -11,5 +11,6 @@ var body = {
     "user_viptime" : "2066-06-06"
   }
 };
-
-$done({Json.stringify(body)});
+console.log($response.body+'\n');
+console.log({body});
+$done({body});
