@@ -12,4 +12,4 @@ var body = {
   }
 };
 
-$done({body});
+$done({JSON.stringify(body)});
