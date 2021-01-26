@@ -1,4 +1,4 @@
-body = {
+var body = {
   "status" : "200",
   "msg" : "返回成功",
   "data" : {
@@ -12,4 +12,4 @@ body = {
   }
 };
 
-$done(JSON.stringify(body));
+$done({body:JSON.stringify(body)});
