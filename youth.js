@@ -1,5 +1,5 @@
 /*
-更新时间: 2021-02-08 08:20
+更新时间: 2021-02-08 16:20
 原作者@Sunert：中青邀请码`46308484`,农妇山泉 -> 有点咸
 本脚本仅适用于中青看点极速版领取青豆
 食用说明请查看本仓库目录https://github.com/Sunert/Scripts/tree/master/TaskConf/youth
